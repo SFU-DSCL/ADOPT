@@ -137,7 +137,7 @@ export function App() {
   const [toast, setToast] = useState("");
   const [tick, setTick] = useState(0);
 
-  useEffect(() => { fetch("/data/manifest.json").then(r => r.json()).then(value => { setData(value); setSelectedRoute(value.sample_routes[1]); }); }, []);
+  useEffect(() => { fetch(`${import.meta.env.BASE_URL}data/manifest.json`).then(r => r.json()).then(value => { setData(value); setSelectedRoute(value.sample_routes[1]); }); }, []);
   useEffect(() => {
     if (!playing) return undefined;
     const timer = setInterval(() => { setTimeIndex(value => (value + 1) % 365); setTick(value => value + 1); }, 2200);
@@ -171,7 +171,7 @@ export function App() {
       <section className="metric-strip">{metrics.map(([Icon, label, value, detail, color]) => <div className="metric" key={label}><span className={`metric-icon ${color}`}><Icon/></span><div><small>{label}</small><strong>{value}</strong><em>{detail}</em></div></div>)}</section>
       <section className="network-shell">
         <div className="map-panel">
-          <div className="map-stage" style={{ "--zoom": zoom }}>
+          <div className="map-stage" style={{ "--zoom": zoom, "--map-image": `url(${import.meta.env.BASE_URL}assets/lower-mainland-map.png)` }}>
             <div className="map-art"></div>
             <RouteLayer routes={routes} locations={data.locations} customers={data.customers_detail} selectedId={selectedRoute?.id} onSelect={selectRoute} tick={tick}/>
             <div className="map-labels">{CITY_LABELS.map(city => { const point = project(city); return <span key={city.name} style={{left:`${point.x}%`,top:`${point.y}%`}}>{city.name}</span>; })}</div>
