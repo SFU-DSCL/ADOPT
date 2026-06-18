@@ -1,0 +1,408 @@
+{
+  "name": "ADOPT Vancouver annual scenario",
+  "generated_at": "2026-06-18T14:59:30",
+  "start_date": "2026-07-01",
+  "end_date": "2027-06-30",
+  "seed": 20260618,
+  "vessel_calls": 3650,
+  "ships_per_day": 10,
+  "containers": 73000,
+  "ports": 4,
+  "port_gates_each": 10,
+  "warehouses": 5,
+  "warehouse_bays_each": 20,
+  "customers": 20,
+  "products": 50,
+  "locations": [
+    {
+      "location_id": "PORT-DELTAPORT",
+      "name": "Deltaport",
+      "city": "Delta",
+      "capacity": 10,
+      "lat": 49.023293,
+      "lon": -123.157167,
+      "type": "port",
+      "capacity_unit": "gates"
+    },
+    {
+      "location_id": "PORT-VANTERM",
+      "name": "Vanterm",
+      "city": "Vancouver",
+      "capacity": 10,
+      "lat": 49.2895,
+      "lon": -123.0405,
+      "type": "port",
+      "capacity_unit": "gates"
+    },
+    {
+      "location_id": "PORT-CENTERM",
+      "name": "Centerm",
+      "city": "Vancouver",
+      "capacity": 10,
+      "lat": 49.2915,
+      "lon": -123.072,
+      "type": "port",
+      "capacity_unit": "gates"
+    },
+    {
+      "location_id": "PORT-FSD",
+      "name": "Fraser Surrey Docks",
+      "city": "Surrey",
+      "capacity": 10,
+      "lat": 49.195,
+      "lon": -122.922,
+      "type": "port",
+      "capacity_unit": "gates"
+    },
+    {
+      "location_id": "WH-YVR",
+      "name": "YVR Logistics Centre",
+      "city": "YVR",
+      "type": "warehouse",
+      "capacity": 20,
+      "capacity_unit": "bays",
+      "lat": 49.194,
+      "lon": -123.178
+    },
+    {
+      "location_id": "WH-LANGLEY",
+      "name": "Langley Distribution Campus",
+      "city": "Langley",
+      "type": "warehouse",
+      "capacity": 20,
+      "capacity_unit": "bays",
+      "lat": 49.104,
+      "lon": -122.66
+    },
+    {
+      "location_id": "WH-NORTH-VAN",
+      "name": "North Vancouver DC",
+      "city": "North Vancouver",
+      "type": "warehouse",
+      "capacity": 20,
+      "capacity_unit": "bays",
+      "lat": 49.312,
+      "lon": -123.044
+    },
+    {
+      "location_id": "WH-VANCOUVER",
+      "name": "Vancouver Fulfilment Hub",
+      "city": "Vancouver",
+      "type": "warehouse",
+      "capacity": 20,
+      "capacity_unit": "bays",
+      "lat": 49.228,
+      "lon": -123.079
+    },
+    {
+      "location_id": "WH-DELTA-XD",
+      "name": "Delta Cross-dock",
+      "city": "Delta",
+      "type": "crossdock",
+      "capacity": 20,
+      "capacity_unit": "bays",
+      "lat": 49.108,
+      "lon": -123.026
+    },
+    {
+      "location_id": "RAIL-BC",
+      "name": "BC Rail North Vancouver Yard",
+      "city": "North Vancouver",
+      "type": "rail",
+      "capacity": 12,
+      "capacity_unit": "tracks",
+      "lat": 49.309,
+      "lon": -123.032
+    }
+  ],
+  "customers_detail": [
+    {
+      "customer_id": "CUST-001",
+      "name": "Costco",
+      "city": "YVR",
+      "display_name": "Costco \u00b7 YVR",
+      "lat": 49.178,
+      "lon": -123.13
+    },
+    {
+      "customer_id": "CUST-002",
+      "name": "Walmart",
+      "city": "YVR",
+      "display_name": "Walmart \u00b7 YVR",
+      "lat": 49.166,
+      "lon": -123.135
+    },
+    {
+      "customer_id": "CUST-003",
+      "name": "Home Depot",
+      "city": "YVR",
+      "display_name": "Home Depot \u00b7 YVR",
+      "lat": 49.181,
+      "lon": -123.093
+    },
+    {
+      "customer_id": "CUST-004",
+      "name": "Real Canadian Superstore",
+      "city": "YVR",
+      "display_name": "Real Canadian Superstore \u00b7 YVR",
+      "lat": 49.176,
+      "lon": -123.126
+    },
+    {
+      "customer_id": "CUST-005",
+      "name": "Costco",
+      "city": "Langley",
+      "display_name": "Costco \u00b7 Langley",
+      "lat": 49.116,
+      "lon": -122.678
+    },
+    {
+      "customer_id": "CUST-006",
+      "name": "Walmart",
+      "city": "Langley",
+      "display_name": "Walmart \u00b7 Langley",
+      "lat": 49.105,
+      "lon": -122.666
+    },
+    {
+      "customer_id": "CUST-007",
+      "name": "Home Depot",
+      "city": "Langley",
+      "display_name": "Home Depot \u00b7 Langley",
+      "lat": 49.112,
+      "lon": -122.672
+    },
+    {
+      "customer_id": "CUST-008",
+      "name": "Real Canadian Superstore",
+      "city": "Langley",
+      "display_name": "Real Canadian Superstore \u00b7 Langley",
+      "lat": 49.104,
+      "lon": -122.654
+    },
+    {
+      "customer_id": "CUST-009",
+      "name": "Costco",
+      "city": "North Vancouver",
+      "display_name": "Costco \u00b7 North Vancouver",
+      "lat": 49.321,
+      "lon": -123.073
+    },
+    {
+      "customer_id": "CUST-010",
+      "name": "Walmart",
+      "city": "North Vancouver",
+      "display_name": "Walmart \u00b7 North Vancouver",
+      "lat": 49.312,
+      "lon": -123.082
+    },
+    {
+      "customer_id": "CUST-011",
+      "name": "Home Depot",
+      "city": "North Vancouver",
+      "display_name": "Home Depot \u00b7 North Vancouver",
+      "lat": 49.312,
+      "lon": -123.042
+    },
+    {
+      "customer_id": "CUST-012",
+      "name": "Real Canadian Superstore",
+      "city": "North Vancouver",
+      "display_name": "Real Canadian Superstore \u00b7 North Vancouver",
+      "lat": 49.32,
+      "lon": -123.095
+    },
+    {
+      "customer_id": "CUST-013",
+      "name": "Costco",
+      "city": "Vancouver",
+      "display_name": "Costco \u00b7 Vancouver",
+      "lat": 49.277,
+      "lon": -123.114
+    },
+    {
+      "customer_id": "CUST-014",
+      "name": "Walmart",
+      "city": "Vancouver",
+      "display_name": "Walmart \u00b7 Vancouver",
+      "lat": 49.258,
+      "lon": -123.032
+    },
+    {
+      "customer_id": "CUST-015",
+      "name": "Home Depot",
+      "city": "Vancouver",
+      "display_name": "Home Depot \u00b7 Vancouver",
+      "lat": 49.265,
+      "lon": -123.07
+    },
+    {
+      "customer_id": "CUST-016",
+      "name": "Real Canadian Superstore",
+      "city": "Vancouver",
+      "display_name": "Real Canadian Superstore \u00b7 Vancouver",
+      "lat": 49.257,
+      "lon": -123.116
+    },
+    {
+      "customer_id": "CUST-017",
+      "name": "Costco",
+      "city": "Delta",
+      "display_name": "Costco \u00b7 Delta",
+      "lat": 49.154,
+      "lon": -122.95
+    },
+    {
+      "customer_id": "CUST-018",
+      "name": "Walmart",
+      "city": "Delta",
+      "display_name": "Walmart \u00b7 Delta",
+      "lat": 49.118,
+      "lon": -122.89
+    },
+    {
+      "customer_id": "CUST-019",
+      "name": "Home Depot",
+      "city": "Delta",
+      "display_name": "Home Depot \u00b7 Delta",
+      "lat": 49.151,
+      "lon": -122.908
+    },
+    {
+      "customer_id": "CUST-020",
+      "name": "Real Canadian Superstore",
+      "city": "Delta",
+      "display_name": "Real Canadian Superstore \u00b7 Delta",
+      "lat": 49.132,
+      "lon": -122.892
+    }
+  ],
+  "sample_routes": [
+    {
+      "id": "ADPU0000001",
+      "product": "Flat-pack patio furniture",
+      "port": "PORT-DELTAPORT",
+      "warehouse": "WH-YVR",
+      "customer": "CUST-001",
+      "status": "planned",
+      "progress": 0.08
+    },
+    {
+      "id": "ADPU0000002",
+      "product": "Ceramic floor tile",
+      "port": "PORT-VANTERM",
+      "warehouse": "WH-NORTH-VAN",
+      "customer": "CUST-004",
+      "status": "in_transit",
+      "progress": 0.19
+    },
+    {
+      "id": "ADPU0000003",
+      "product": "Automotive batteries",
+      "port": "PORT-CENTERM",
+      "warehouse": "WH-DELTA-XD",
+      "customer": "CUST-007",
+      "status": "delivered",
+      "progress": 0.3
+    },
+    {
+      "id": "ADPU0000004",
+      "product": "Rice sacks",
+      "port": "PORT-FSD",
+      "warehouse": "WH-LANGLEY",
+      "customer": "CUST-010",
+      "status": "late",
+      "progress": 0.41
+    },
+    {
+      "id": "ADPU0000005",
+      "product": "Laundry detergent",
+      "port": "PORT-DELTAPORT",
+      "warehouse": "WH-VANCOUVER",
+      "customer": "CUST-013",
+      "status": "planned",
+      "progress": 0.52
+    },
+    {
+      "id": "ADPU0000006",
+      "product": "Modular shelving",
+      "port": "PORT-VANTERM",
+      "warehouse": "WH-YVR",
+      "customer": "CUST-016",
+      "status": "in_transit",
+      "progress": 0.63
+    },
+    {
+      "id": "ADPU0000007",
+      "product": "Laptop computers",
+      "port": "PORT-CENTERM",
+      "warehouse": "WH-NORTH-VAN",
+      "customer": "CUST-019",
+      "status": "delivered",
+      "progress": 0.74
+    },
+    {
+      "id": "ADPU0000008",
+      "product": "Reusable storage bins",
+      "port": "PORT-FSD",
+      "warehouse": "WH-DELTA-XD",
+      "customer": "CUST-002",
+      "status": "late",
+      "progress": 0.85
+    },
+    {
+      "id": "ADPU0000009",
+      "product": "Microwave ovens",
+      "port": "PORT-DELTAPORT",
+      "warehouse": "WH-LANGLEY",
+      "customer": "CUST-005",
+      "status": "planned",
+      "progress": 0.08
+    },
+    {
+      "id": "ADPU0000010",
+      "product": "Passenger vehicle tires",
+      "port": "PORT-VANTERM",
+      "warehouse": "WH-VANCOUVER",
+      "customer": "CUST-008",
+      "status": "in_transit",
+      "progress": 0.19
+    },
+    {
+      "id": "ADPU0000011",
+      "product": "Olive oil",
+      "port": "PORT-CENTERM",
+      "warehouse": "WH-YVR",
+      "customer": "CUST-011",
+      "status": "delivered",
+      "progress": 0.3
+    },
+    {
+      "id": "ADPU0000012",
+      "product": "Paper towels",
+      "port": "PORT-FSD",
+      "warehouse": "WH-NORTH-VAN",
+      "customer": "CUST-014",
+      "status": "late",
+      "progress": 0.41
+    },
+    {
+      "id": "ADPU0000013",
+      "product": "Mattresses",
+      "port": "PORT-DELTAPORT",
+      "warehouse": "WH-DELTA-XD",
+      "customer": "CUST-017",
+      "status": "planned",
+      "progress": 0.52
+    },
+    {
+      "id": "ADPU0000014",
+      "product": "School backpacks",
+      "port": "PORT-VANTERM",
+      "warehouse": "WH-LANGLEY",
+      "customer": "CUST-020",
+      "status": "in_transit",
+      "progress": 0.63
+    }
+  ]
+}

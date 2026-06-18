@@ -1,0 +1,11 @@
+location_id,name,city,capacity,lat,lon,type,capacity_unit
+PORT-DELTAPORT,Deltaport,Delta,10,49.023293,-123.157167,port,gates
+PORT-VANTERM,Vanterm,Vancouver,10,49.2895,-123.0405,port,gates
+PORT-CENTERM,Centerm,Vancouver,10,49.2915,-123.072,port,gates
+PORT-FSD,Fraser Surrey Docks,Surrey,10,49.195,-122.922,port,gates
+WH-YVR,YVR Logistics Centre,YVR,20,49.194,-123.178,warehouse,bays
+WH-LANGLEY,Langley Distribution Campus,Langley,20,49.104,-122.66,warehouse,bays
+WH-NORTH-VAN,North Vancouver DC,North Vancouver,20,49.312,-123.044,warehouse,bays
+WH-VANCOUVER,Vancouver Fulfilment Hub,Vancouver,20,49.228,-123.079,warehouse,bays
+WH-DELTA-XD,Delta Cross-dock,Delta,20,49.108,-123.026,crossdock,bays
+RAIL-BC,BC Rail North Vancouver Yard,North Vancouver,12,49.309,-123.032,rail,tracks

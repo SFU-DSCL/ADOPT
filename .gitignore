@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.pnpm-store/
+.DS_Store
+*.log
+
+# Python development artifacts
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+
+# Local editor and OS state
+.idea/
+.vscode/
+

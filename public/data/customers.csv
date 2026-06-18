@@ -1,0 +1,21 @@
+customer_id,name,city,display_name,lat,lon
+CUST-001,Costco,YVR,Costco · YVR,49.178,-123.13
+CUST-002,Walmart,YVR,Walmart · YVR,49.166,-123.135
+CUST-003,Home Depot,YVR,Home Depot · YVR,49.181,-123.093
+CUST-004,Real Canadian Superstore,YVR,Real Canadian Superstore · YVR,49.176,-123.126
+CUST-005,Costco,Langley,Costco · Langley,49.116,-122.678
+CUST-006,Walmart,Langley,Walmart · Langley,49.105,-122.666
+CUST-007,Home Depot,Langley,Home Depot · Langley,49.112,-122.672
+CUST-008,Real Canadian Superstore,Langley,Real Canadian Superstore · Langley,49.104,-122.654
+CUST-009,Costco,North Vancouver,Costco · North Vancouver,49.321,-123.073
+CUST-010,Walmart,North Vancouver,Walmart · North Vancouver,49.312,-123.082
+CUST-011,Home Depot,North Vancouver,Home Depot · North Vancouver,49.312,-123.042
+CUST-012,Real Canadian Superstore,North Vancouver,Real Canadian Superstore · North Vancouver,49.32,-123.095
+CUST-013,Costco,Vancouver,Costco · Vancouver,49.277,-123.114
+CUST-014,Walmart,Vancouver,Walmart · Vancouver,49.258,-123.032
+CUST-015,Home Depot,Vancouver,Home Depot · Vancouver,49.265,-123.07
+CUST-016,Real Canadian Superstore,Vancouver,Real Canadian Superstore · Vancouver,49.257,-123.116
+CUST-017,Costco,Delta,Costco · Delta,49.154,-122.95
+CUST-018,Walmart,Delta,Walmart · Delta,49.118,-122.89
+CUST-019,Home Depot,Delta,Home Depot · Delta,49.151,-122.908
+CUST-020,Real Canadian Superstore,Delta,Real Canadian Superstore · Delta,49.132,-122.892

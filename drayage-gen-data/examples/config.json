@@ -1,0 +1,14 @@
+{
+  "ships": 3,
+  "containers_per_ship": 40,
+  "warehouses": 2,
+  "bays_per_warehouse": 8,
+  "trucks": 18,
+  "terminal_cranes": 3,
+  "customer_docks": 6,
+  "crossdock_ratio": 0.45,
+  "disruption_rate": 0.12,
+  "horizon_days": 5,
+  "start_time": "2026-06-08T06:00:00",
+  "seed": 42
+}

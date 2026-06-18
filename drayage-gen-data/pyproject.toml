@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drayage-gen-data"
+version = "0.1.0"
+description = "Generate synthetic port TOS and warehouse WMIS data and optimize drayage schedules."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Drayage Operations Lab" }
+]
+keywords = ["drayage", "scheduling", "synthetic-data", "TOS", "WMIS", "graph-theory"]
+dependencies = []
+
+[project.scripts]
+drayage-gen-data = "drayage_gen_data.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
