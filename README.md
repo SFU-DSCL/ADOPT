@@ -19,6 +19,8 @@ pnpm dev
 
 Open `http://127.0.0.1:5173`.
 
+The production site is deployed from `main` with GitHub Actions to [sfu-dscl.github.io/ADOPT](https://sfu-dscl.github.io/ADOPT/).
+
 ## Annual scenario data
 
 The bundled `drayage-gen-data` utility creates a deterministic 365-day scenario containing 3,650 vessel calls, 73,000 containers, 50 products, and facility capacity data.
